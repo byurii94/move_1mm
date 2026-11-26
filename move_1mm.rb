@@ -4,7 +4,7 @@ require 'json'
 require 'sketchup'
 
 module Move1mm
-  PLUGIN_VERSION = "1.0.3"
+  PLUGIN_VERSION = "1.0.4"
   GITHUB_USER    = "byurii94"
   GITHUB_REPO    = "move_1mm"
   GITHUB_BRANCH  = "main"
