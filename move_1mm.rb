@@ -476,7 +476,7 @@ module Move1mm
     ext_menu.add_item("Переміщення з кроком 1 мм (1mm Move)") { run }
     ext_menu.add_item("Перевірити оновлення (1mm Move)") { check_for_updates(silent: false) }
 
-    UI.start_timer(2.0, false) { check_for_updates(silent: true) }
+    UI.start_timer(30.0, false) { check_for_updates(silent: true) }
     file_loaded(__FILE__)
   end
 end
